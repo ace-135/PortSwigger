@@ -1,0 +1,9 @@
+objective : delete user Carlos
+
+stock path = http://192.168.0.1:8080/product/stock/check?productId=1&storeId=1
+
+192.168.0.26 --> admin
+
+http://192.168.0.26:8080/admin/delete?username=carlos
+
+/admin/delete?username=carlos

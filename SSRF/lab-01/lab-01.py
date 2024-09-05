@@ -1,3 +1,5 @@
+# Lab: Basic SSRF against the local server
+
 import requests
 import sys
 import urllib3

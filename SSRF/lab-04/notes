@@ -1,0 +1,5 @@
+https://expected-host:fakepassword@evil-host
+
+https://evil-host#expected-host
+
+https://expected-host.evil-host

